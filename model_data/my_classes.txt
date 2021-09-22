@@ -1,0 +1,6 @@
+flower
+bud
+withered
+noised_flower
+noised_bud
+noised_withered
