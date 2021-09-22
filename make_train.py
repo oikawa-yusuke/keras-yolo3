@@ -7,9 +7,9 @@
 
 import os
 
-path = "./VOCDevkit/VOC2007/JPEGImages/"
+path = "VOCdevkit/VOC2007/JPEGImages/"
 
-f = open('./VOCDevkit/VOC2007/ImageSets/Main/train.txt', 'w')
+f = open('VOCdevkit/VOC2007/ImageSets/Main/train.txt', 'w')
 
 files = os.listdir(path)
 files_file = [f for f in files if os.path.isfile(os.path.join(path, f))]
